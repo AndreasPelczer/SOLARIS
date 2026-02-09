@@ -5,7 +5,6 @@
 //  Created by Andreas Pelczer on 09.02.26.
 //
 
-
 import SwiftUI
 
 struct AppRouter: View {
@@ -13,5 +12,6 @@ struct AppRouter: View {
         NavigationStack {
             HomeView(viewModel: HomeViewModel())
         }
+        .tint(SolaraTheme.gold)
     }
 }

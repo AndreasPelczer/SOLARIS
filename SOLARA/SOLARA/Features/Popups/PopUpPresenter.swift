@@ -5,7 +5,6 @@
 //  Created by Andreas Pelczer on 09.02.26.
 //
 
-
 import Foundation
 import Observation
 
@@ -16,34 +15,39 @@ final class PopUpPresenter {
 
     private let oracle = RandomOracle()
 
-    /// Satire-Regel: Popup kommt selten genug, dass es „besonders“ wirkt.
+    enum Trigger {
+        case appLaunch       // 35%
+        case taskAdded       // 25%
+        case taskTapped      // 18%
+        case taskCompleted   // 40%
+        case taskDeleted     // 20%
+        case hardNo          // 100%
+        case easterEgg       // 100%
+    }
+
     func maybeShow(trigger: Trigger) {
-        // simple Wahrscheinlichkeit je Trigger
         let chance: Int
         switch trigger {
-        case .appLaunch: chance = 35
-        case .taskAdded: chance = 25
-        case .taskTapped: chance = 18
-        case .hardNo: chance = 100
+        case .appLaunch:     chance = 35
+        case .taskAdded:     chance = 25
+        case .taskTapped:    chance = 18
+        case .taskCompleted: chance = 40
+        case .taskDeleted:   chance = 20
+        case .hardNo:        chance = 100
+        case .easterEgg:     chance = 100
         }
 
         let roll = Int.random(in: 1...100)
         guard roll <= chance else { return }
 
-        if trigger == .hardNo {
-            message = oracle.hardNo()
-        } else {
-            message = oracle.randomPopup()
-        }
+        message = oracle.message(for: trigger)
+        isShowing = true
+    }
+
+    func show(message: String) {
+        self.message = message
         isShowing = true
     }
 
     func dismiss() { isShowing = false }
-
-    enum Trigger {
-        case appLaunch
-        case taskAdded
-        case taskTapped
-        case hardNo
-    }
 }
