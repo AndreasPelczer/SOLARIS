@@ -86,7 +86,7 @@ struct StoreView: View {
             Text("✦ Kosmischer Geschenkeladen ✦")
                 .font(.title3.bold())
                 .foregroundStyle(SolaraTheme.gold)
-            Text("„Nichts hier tut etwas. Alles hier ist schön."")
+            Text("\u{201E}Nichts hier tut etwas. Alles hier ist schön.\u{201C}")
                 .font(.callout.italic())
                 .foregroundStyle(SolaraTheme.textSecondary)
                 .multilineTextAlignment(.center)

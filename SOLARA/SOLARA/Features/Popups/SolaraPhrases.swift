@@ -127,12 +127,12 @@ enum SolaraPhrases {
     // MARK: - Easter Eggs
 
     static let easterEggs: [String: String] = [
-        "meditieren": "Du hast „Meditieren" geschrieben. SOLARA empfiehlt: Augen zu. App zu. Fertig.",
+        "meditieren": "Du hast \u{201E}Meditieren\u{201C} geschrieben. SOLARA empfiehlt: Augen zu. App zu. Fertig.",
         "erleuchtung": "Erleuchtung ist kein Task. Aber netter Versuch.",
         "yoga": "Yoga als Task? Das Universum macht gerade den herabschauenden Hund.",
         "todo": "Ein To-Do in einer To-Do-App. Sehr meta.",
         "solara": "Du hast den Namen der App als Task eingetragen. SOLARA fühlt sich… nichts. SOLARA fühlt nichts.",
-        "nichts": "Du hast „Nichts" als Task erstellt. Technisch gesehen bist du jetzt fertig.",
+        "nichts": "Du hast \u{201E}Nichts\u{201C} als Task erstellt. Technisch gesehen bist du jetzt fertig.",
         "sinn des lebens": "42. Nächster Task.",
         "hilfe": "SOLARA kann nicht helfen. SOLARA ist eine To-Do-App, die nichts weiß.",
         "delete system32": "Netter Versuch. SOLARA läuft auf iOS.",
