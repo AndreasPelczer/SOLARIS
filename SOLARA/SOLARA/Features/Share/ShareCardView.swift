@@ -107,7 +107,7 @@ struct ShareCardContent: View {
                     .font(.largeTitle)
                     .foregroundStyle(SolaraTheme.gold)
 
-                Text("„\(message)"")
+                Text("„\(message)“")
                     .font(.title3.italic())
                     .foregroundStyle(SolaraTheme.goldLight)
                     .multilineTextAlignment(.center)
