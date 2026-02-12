@@ -745,7 +745,7 @@
     },
     "easter.val.meditate" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast „Meditieren" geschrieben. SOLARA empfiehlt: Augen zu. App zu. Fertig." } },
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast \u201EMeditieren\u201C geschrieben. SOLARA empfiehlt: Augen zu. App zu. Fertig." } },
         "en" : { "stringUnit" : { "state" : "translated", "value" : "You typed \"Meditate.\" SOLARA recommends: eyes closed. App closed. Done." } },
         "es" : { "stringUnit" : { "state" : "translated", "value" : "Escribiste \"Meditar.\" SOLARA recomienda: ojos cerrados. App cerrada. Listo." } },
         "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você digitou \"Meditar.\" SOLARA recomenda: olhos fechados. App fechado. Pronto." } }
@@ -825,7 +825,7 @@
     },
     "easter.val.nothing" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast „Nichts" als Task erstellt. Technisch gesehen bist du jetzt fertig." } },
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast \u201ENichts\u201C als Task erstellt. Technisch gesehen bist du jetzt fertig." } },
         "en" : { "stringUnit" : { "state" : "translated", "value" : "You created \"Nothing\" as a task. Technically, you're done now." } },
         "es" : { "stringUnit" : { "state" : "translated", "value" : "Creaste \"Nada\" como tarea. Técnicamente, ya terminaste." } },
         "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você criou \"Nada\" como tarefa. Tecnicamente, você já terminou." } }
