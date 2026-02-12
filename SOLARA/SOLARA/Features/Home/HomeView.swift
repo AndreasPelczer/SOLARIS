@@ -74,12 +74,12 @@ struct HomeView: View {
                 .scaleEffect(viewModel.titleAppeared ? 1 : 1.05)
                 .opacity(viewModel.titleAppeared ? 1 : 0)
 
-            Text("„Deine kosmische Liste“")
+            Text("„\(String(localized: "home.subtitle"))"")
                 .font(.callout.italic())
                 .foregroundStyle(SolaraTheme.textSecondary)
 
             HStack(spacing: 8) {
-                TextField("Neuer Task…", text: $viewModel.newTaskTitle)
+                TextField(String(localized: "home.task.placeholder"), text: $viewModel.newTaskTitle)
                     .font(.body)
                     .foregroundStyle(SolaraTheme.textPrimary)
                     .padding(.horizontal, 14)
@@ -112,7 +112,7 @@ struct HomeView: View {
                 }
             }
 
-            Text("Satire. SOLARA weiß nichts.")
+            Text(String(localized: "home.disclaimer"))
                 .font(.caption2)
                 .foregroundStyle(SolaraTheme.textSecondary)
         }
@@ -165,12 +165,12 @@ struct HomeView: View {
                         Button {
                             viewModel.attemptComplete(task)
                         } label: {
-                            Label("Fühlt sich erledigt an", systemImage: "checkmark.circle")
+                            Label(String(localized: "home.context.complete"), systemImage: "checkmark.circle")
                         }
                         Button(role: .destructive) {
                             viewModel.deleteTask(task)
                         } label: {
-                            Label("Loslassen", systemImage: "xmark.circle")
+                            Label(String(localized: "home.context.delete"), systemImage: "xmark.circle")
                         }
                     }
                 }

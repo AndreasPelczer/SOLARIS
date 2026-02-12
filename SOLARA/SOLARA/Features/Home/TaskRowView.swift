@@ -25,7 +25,7 @@ struct TaskRowView: View {
                 Spacer()
             }
 
-            Text(task.cosmicState.rawValue)
+            Text(task.cosmicState.localizedName)
                 .font(.caption.italic())
                 .foregroundStyle(SolaraTheme.textSecondary)
 

@@ -38,7 +38,7 @@ struct SolaraPopupView: View {
                 Button {
                     dismiss()
                 } label: {
-                    Text("Verstanden")
+                    Text(String(localized: "popup.dismiss"))
                         .font(.subheadline.bold())
                         .foregroundStyle(SolaraTheme.gold)
                         .padding(.horizontal, 24)

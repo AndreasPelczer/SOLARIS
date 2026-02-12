@@ -1,6 +1,998 @@
 {
   "sourceLanguage" : "de",
   "strings" : {
+
+    "cosmic.state.flowing" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Im kosmischen Fluss" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "In cosmic flow" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "En flujo cósmico" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Em fluxo cósmico" } }
+      }
+    },
+    "cosmic.state.blocked" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Energetisch blockiert" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Energetically blocked" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Energéticamente bloqueado" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Energeticamente bloqueado" } }
+      }
+    },
+    "cosmic.state.unmanifested" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Noch nicht manifestiert" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Not yet manifested" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aún no manifestado" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Ainda não manifestado" } }
+      }
+    },
+    "cosmic.state.letgo" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Loslassen empfohlen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Letting go recommended" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Se recomienda soltar" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Recomendado desapegar" } }
+      }
+    },
+    "cosmic.state.timing" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Wartet auf kosmisches Timing" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Awaiting cosmic timing" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Esperando el momento cósmico" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Aguardando timing cósmico" } }
+      }
+    },
+    "cosmic.state.astral" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Astral verschoben" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Astrally postponed" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aplazado astralmente" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Adiado astralmente" } }
+      }
+    },
+    "cosmic.state.sign" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Wartet auf ein Zeichen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Waiting for a sign" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Esperando una señal" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Aguardando um sinal" } }
+      }
+    },
+    "cosmic.state.quantum" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Quantenverschränkt" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Quantum entangled" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Entrelazado cuánticamente" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Entrelaçado quanticamente" } }
+      }
+    },
+    "cosmic.state.retrograde" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Retrograd verschoben" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Retrograde postponed" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aplazado por retrógrado" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Adiado por retrógrado" } }
+      }
+    },
+    "cosmic.state.checking" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum prüft noch" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe is still checking" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo aún lo está revisando" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo ainda está verificando" } }
+      }
+    },
+
+    "home.subtitle" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Deine kosmische Liste" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your cosmic list" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tu lista cósmica" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sua lista cósmica" } }
+      }
+    },
+    "home.task.placeholder" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Neuer Task…" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "New task…" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nueva tarea…" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Nova tarefa…" } }
+      }
+    },
+    "home.disclaimer" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Satire. SOLARA weiß nichts." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Satire. SOLARA knows nothing." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sátira. SOLARA no sabe nada." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sátira. SOLARA não sabe nada." } }
+      }
+    },
+    "home.context.complete" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Fühlt sich erledigt an" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Feels done" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Se siente completado" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Parece concluído" } }
+      }
+    },
+    "home.context.delete" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Loslassen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Let go" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Soltar" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Desapegar" } }
+      }
+    },
+
+    "share.title" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Teile kosmische Weisheit" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Share cosmic wisdom" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Comparte sabiduría cósmica" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Compartilhe sabedoria cósmica" } }
+      }
+    },
+    "share.newquote" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Neuer Spruch" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "New quote" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nueva frase" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Nova frase" } }
+      }
+    },
+    "share.button" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Teilen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Share" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Compartir" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Compartilhar" } }
+      }
+    },
+    "share.tagline" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Eine App, die nichts weiß." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "An app that knows nothing." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Una app que no sabe nada." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Um app que não sabe nada." } }
+      }
+    },
+
+    "popup.dismiss" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verstanden" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Understood" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Entendido" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Entendido" } }
+      }
+    },
+
+    "phrases.popup.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ich spüre eine Blockade. Sie heißt: Verantwortung." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "I sense a blockage. It's called: responsibility." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Siento un bloqueo. Se llama: responsabilidad." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sinto um bloqueio. Chama-se: responsabilidade." } }
+      }
+    },
+    "phrases.popup.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Heute ist kein guter Tag, um Dinge zu Ende zu bringen. Morgen aber auch nicht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today is not a good day to finish things. Neither is tomorrow." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hoy no es un buen día para terminar cosas. Mañana tampoco." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Hoje não é um bom dia para terminar coisas. Amanhã também não." } }
+      }
+    },
+    "phrases.popup.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dein Task ist energetisch bereit. Du nicht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your task is energetically ready. You are not." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tu tarea está energéticamente lista. Tú no." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sua tarefa está energeticamente pronta. Você não." } }
+      }
+    },
+    "phrases.popup.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum hat deinen Plan gesehen und leise gelacht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe saw your plan and quietly laughed." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo vio tu plan y se rió en silencio." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo viu seu plano e riu baixinho." } }
+      }
+    },
+    "phrases.popup.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ich hatte gerade eine Vision: Du wolltest Bestätigung. Bitte sehr." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "I just had a vision: you wanted validation. Here you go." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Acabo de tener una visión: querías validación. Aquí la tienes." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Acabei de ter uma visão: você queria validação. Aqui está." } }
+      }
+    },
+    "phrases.popup.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ich habe nichts analysiert. Aber es fühlt sich richtig an." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "I analyzed nothing. But it feels right." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No analicé nada. Pero se siente correcto." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não analisei nada. Mas parece certo." } }
+      }
+    },
+    "phrases.popup.6" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Loslassen empfohlen. Vor allem die Schuld." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Letting go recommended. Especially the guilt." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Se recomienda soltar. Sobre todo la culpa." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Recomendado desapegar. Principalmente da culpa." } }
+      }
+    },
+    "phrases.popup.7" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Merkur ist rückläufig. Bitte keine Entscheidungen treffen." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mercury is in retrograde. Please make no decisions." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Mercurio está retrógrado. Por favor, no tomes decisiones." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Mercúrio está retrógrado. Por favor, não tome decisões." } }
+      }
+    },
+    "phrases.popup.8" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du bist weiter als du denkst. Nur leider nicht dort, wo du sein willst." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You're further along than you think. Just not where you want to be." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Estás más avanzado de lo que crees. Solo que no donde quieres estar." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você está mais adiante do que pensa. Só que não onde gostaria de estar." } }
+      }
+    },
+    "phrases.popup.9" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Premium-Erleuchtung wäre jetzt angemessen. (Nur ein Scherz. Oder?)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Premium enlightenment would be appropriate now. (Just kidding. Or?)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Una iluminación premium sería apropiada ahora. (Es broma. ¿O no?)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Iluminação premium seria apropriada agora. (Brincadeira. Ou não?)" } }
+      }
+    },
+
+    "phrases.hardno.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Deine Absicht war nicht rein." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. Your intention was not pure." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. Tu intención no era pura." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. Sua intenção não era pura." } }
+      }
+    },
+    "phrases.hardno.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Du meinst das gerade nicht ernst." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. You're not serious right now." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. No lo dices en serio." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. Você não está falando sério." } }
+      }
+    },
+    "phrases.hardno.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Das Universum ist sich noch unsicher." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. The universe is still undecided." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. El universo aún no está seguro." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. O universo ainda está indeciso." } }
+      }
+    },
+    "phrases.hardno.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Mach erst einen Tee." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. Make some tea first." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. Primero hazte un té." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. Faça um chá primeiro." } }
+      }
+    },
+    "phrases.hardno.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Nicht unter diesem Mondstand." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. Not under this moon phase." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. No con esta fase lunar." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. Não com esta fase da lua." } }
+      }
+    },
+    "phrases.hardno.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Das fühlt sich nicht aligned an." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. This does not feel aligned." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. Esto no se siente alineado." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. Isso não parece estar alinhado." } }
+      }
+    },
+    "phrases.hardno.6" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Versuch es mit geschlossenen Augen. (Nicht wirklich.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. Try with your eyes closed. (Not really.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. Inténtalo con los ojos cerrados. (No en serio.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. Tente de olhos fechados. (Não de verdade.)" } }
+      }
+    },
+    "phrases.hardno.7" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. SOLARA hat eine Vision: Du brauchst eine Pause." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. SOLARA had a vision: you need a break." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. SOLARA tuvo una visión: necesitas un descanso." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. SOLARA teve uma visão: você precisa de uma pausa." } }
+      }
+    },
+    "phrases.hardno.8" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Die kosmische Genehmigung wurde verweigert." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. Cosmic permission denied." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. Permiso cósmico denegado." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. Permissão cósmica negada." } }
+      }
+    },
+    "phrases.hardno.9" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nein. Dein Energiefeld sagt: Noch nicht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No. Your energy field says: not yet." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No. Tu campo energético dice: todavía no." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Não. Seu campo energético diz: ainda não." } }
+      }
+    },
+
+    "phrases.launch.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Willkommen zurück. SOLARA hat dich nicht vermisst. (SOLARA kann nicht fühlen.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Welcome back. SOLARA did not miss you. (SOLARA cannot feel.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bienvenido de vuelta. SOLARA no te echó de menos. (SOLARA no puede sentir.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Bem-vindo de volta. SOLARA não sentiu sua falta. (SOLARA não sente nada.)" } }
+      }
+    },
+    "phrases.launch.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Die Sterne stehen günstig. Für was, weiß niemand." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The stars are favorable. For what, nobody knows." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Las estrellas están favorables. Para qué, nadie sabe." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "As estrelas estão favoráveis. Para quê, ninguém sabe." } }
+      }
+    },
+    "phrases.launch.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA hat auf dich gewartet. (Lüge. SOLARA hat kein Zeitgefühl.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA was waiting for you. (Lie. SOLARA has no sense of time.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA te estaba esperando. (Mentira. SOLARA no tiene sentido del tiempo.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA estava esperando por você. (Mentira. SOLARA não tem noção de tempo.)" } }
+      }
+    },
+    "phrases.launch.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dein kosmisches Energiefeld wurde erkannt. (Es war dein Fingerabdruck.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your cosmic energy field was detected. (It was your fingerprint.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tu campo energético cósmico fue detectado. (Era tu huella digital.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Seu campo energético cósmico foi detectado. (Era sua impressão digital.)" } }
+      }
+    },
+    "phrases.launch.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du bist zurück. Das Universum ist neutral dazu." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You're back. The universe is neutral about it." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Has vuelto. El universo es neutral al respecto." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você voltou. O universo é neutro quanto a isso." } }
+      }
+    },
+    "phrases.launch.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA ist bereit. Du hoffentlich auch." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA is ready. Hopefully you are too." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA está lista. Esperemos que tú también." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA está pronta. Esperamos que você também." } }
+      }
+    },
+    "phrases.launch.6" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Heute ist ein guter Tag für nichts Bestimmtes." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today is a good day for nothing in particular." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hoy es un buen día para nada en particular." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Hoje é um bom dia para nada em particular." } }
+      }
+    },
+    "phrases.launch.7" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dein Aura-Level: Unbestimmt. Wie immer." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your aura level: undetermined. As always." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tu nivel de aura: indeterminado. Como siempre." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Seu nível de aura: indeterminado. Como sempre." } }
+      }
+    },
+
+    "phrases.added.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ein neuer Task. Das Universum gähnt höflich." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "A new task. The universe yawns politely." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Una nueva tarea. El universo bosteza educadamente." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Uma nova tarefa. O universo boceja educadamente." } }
+      }
+    },
+    "phrases.added.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Manifestiert! (Nein. Du hast getippt.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Manifested! (No. You typed.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¡Manifestado! (No. Escribiste.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Manifestado! (Não. Você digitou.)" } }
+      }
+    },
+    "phrases.added.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA hat deinen Task empfangen. SOLARA versteht ihn nicht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA received your task. SOLARA does not understand it." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA recibió tu tarea. SOLARA no la entiende." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA recebeu sua tarefa. SOLARA não a entende." } }
+      }
+    },
+    "phrases.added.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Der kosmische Backlog wächst." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The cosmic backlog grows." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El backlog cósmico crece." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O backlog cósmico cresce." } }
+      }
+    },
+    "phrases.added.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dein Task wurde kosmisch registriert. (In einem Array.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your task was cosmically registered. (In an array.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tu tarea fue registrada cósmicamente. (En un array.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sua tarefa foi registrada cosmicamente. (Em um array.)" } }
+      }
+    },
+    "phrases.added.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Noch ein Task. Du bist ambitioniert. Oder rastlos." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Another task. You're ambitious. Or restless." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Otra tarea. Eres ambicioso. O inquieto." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Mais uma tarefa. Você é ambicioso. Ou inquieto." } }
+      }
+    },
+    "phrases.added.6" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum hat deinen Task zur Kenntnis genommen. Mehr nicht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe acknowledged your task. Nothing more." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo tomó nota de tu tarea. Nada más." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo tomou nota da sua tarefa. Nada mais." } }
+      }
+    },
+    "phrases.added.7" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Task hinzugefügt. Die Wahrscheinlichkeit der Erledigung ist… unklar." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Task added. The probability of completion is… unclear." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tarea añadida. La probabilidad de completarla es… incierta." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Tarefa adicionada. A probabilidade de conclusão é… incerta." } }
+      }
+    },
+
+    "phrases.completed.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA ist stolz auf dich. (SOLARA kann nicht fühlen.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA is proud of you. (SOLARA cannot feel.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA está orgullosa de ti. (SOLARA no puede sentir.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA tem orgulho de você. (SOLARA não sente nada.)" } }
+      }
+    },
+    "phrases.completed.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erledigt. Das Universum ist unbeeindruckt, aber wir nicht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Done. The universe is unimpressed, but we're not." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hecho. El universo no está impresionado, pero nosotros sí." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Feito. O universo não está impressionado, mas nós sim." } }
+      }
+    },
+    "phrases.completed.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ein Task weniger. Kosmische Balance wiederhergestellt." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "One task less. Cosmic balance restored." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Una tarea menos. Balance cósmico restaurado." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Uma tarefa a menos. Equilíbrio cósmico restaurado." } }
+      }
+    },
+    "phrases.completed.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast etwas geschafft. Das ist selten. (Scherz.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You accomplished something. That's rare. (Kidding.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Lograste algo. Eso es raro. (Es broma.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você conseguiu algo. Isso é raro. (Brincadeira.)" } }
+      }
+    },
+    "phrases.completed.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Task erledigt. Dein Karma-Konto wurde gutgeschrieben. (Gibt es nicht.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Task done. Your karma account was credited. (Doesn't exist.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tarea completada. Tu cuenta de karma fue acreditada. (No existe.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Tarefa concluída. Sua conta de karma foi creditada. (Não existe.)" } }
+      }
+    },
+    "phrases.completed.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Manifestierung abgeschlossen. (Du hast eine Sache gemacht.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Manifestation complete. (You did a thing.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Manifestación completada. (Hiciste algo.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Manifestação concluída. (Você fez uma coisa.)" } }
+      }
+    },
+    "phrases.completed.6" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum nickt anerkennend. (Tut es nicht. Aber stell es dir vor.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe nods approvingly. (It doesn't. But imagine it.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo asiente con aprobación. (No lo hace. Pero imagínalo.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo acena em aprovação. (Não acena. Mas imagine.)" } }
+      }
+    },
+    "phrases.completed.7" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erleuchtung durch Produktivität. Oder so ähnlich." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enlightenment through productivity. Or something like that." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Iluminación a través de la productividad. O algo así." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Iluminação pela produtividade. Ou algo assim." } }
+      }
+    },
+
+    "phrases.deleted.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Losgelassen. Das war mutig. Oder gleichgültig." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Let go. That was brave. Or indifferent." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Soltado. Eso fue valiente. O indiferente." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Desapegado. Isso foi corajoso. Ou indiferente." } }
+      }
+    },
+    "phrases.deleted.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Der Task ist jetzt im kosmischen Papierkorb. (Unwiderruflich.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The task is now in the cosmic trash. (Irreversible.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "La tarea está ahora en la papelera cósmica. (Irreversible.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "A tarefa está agora na lixeira cósmica. (Irreversível.)" } }
+      }
+    },
+    "phrases.deleted.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Manchmal ist Loslassen die erleuchtendste Tat." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sometimes letting go is the most enlightening act." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "A veces soltar es el acto más iluminador." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Às vezes desapegar é o ato mais iluminador." } }
+      }
+    },
+    "phrases.deleted.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Task entfernt. Die Sterne merken keinen Unterschied." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Task removed. The stars notice no difference." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tarea eliminada. Las estrellas no notan la diferencia." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Tarefa removida. As estrelas não notam diferença." } }
+      }
+    },
+    "phrases.deleted.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum vergisst schnell. SOLARA auch." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe forgets quickly. So does SOLARA." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo olvida rápido. SOLARA también." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo esquece rápido. SOLARA também." } }
+      }
+    },
+    "phrases.deleted.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Weg ist weg. Kosmisch gesehen war er nie wichtig." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Gone is gone. Cosmically speaking, it was never important." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Lo que se fue, se fue. Cósmicamente, nunca fue importante." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O que foi, foi. Cosmicamente falando, nunca foi importante." } }
+      }
+    },
+
+    "phrases.tapped.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Der kosmische Zustand hat sich verändert. Bedeutung: Keine." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The cosmic state has changed. Meaning: none." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El estado cósmico ha cambiado. Significado: ninguno." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O estado cósmico mudou. Significado: nenhum." } }
+      }
+    },
+    "phrases.tapped.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast getippt. SOLARA hat gewürfelt." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You tapped. SOLARA rolled the dice." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tocaste. SOLARA lanzó los dados." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você tocou. SOLARA jogou os dados." } }
+      }
+    },
+    "phrases.tapped.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Neuer Zustand, gleiche Bedeutungslosigkeit." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "New state, same meaninglessness." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nuevo estado, misma insignificancia." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Novo estado, mesma insignificância." } }
+      }
+    },
+    "phrases.tapped.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Die Energie wurde umgelenkt. (Zufallsgenerator.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The energy was redirected. (Random number generator.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "La energía fue redirigida. (Generador de números aleatorios.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "A energia foi redirecionada. (Gerador de números aleatórios.)" } }
+      }
+    },
+    "phrases.tapped.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA hat die Schwingungen neu kalibriert." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA recalibrated the vibrations." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA recalibró las vibraciones." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA recalibrou as vibrações." } }
+      }
+    },
+    "phrases.tapped.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Zustandswechsel vollzogen. Ohne Grund." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "State change complete. For no reason." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cambio de estado completado. Sin razón." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Mudança de estado concluída. Sem motivo." } }
+      }
+    },
+
+    "phrases.empty.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Keine Aufgaben.\nErleuchtung erreicht?" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No tasks.\nEnlightenment achieved?" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sin tareas.\n¿Iluminación alcanzada?" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sem tarefas.\nIluminação alcançada?" } }
+      }
+    },
+    "phrases.empty.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Leere Liste.\nDas Universum applaudiert. (Still.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Empty list.\nThe universe applauds. (Silently.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Lista vacía.\nEl universo aplaude. (En silencio.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Lista vazia.\nO universo aplaude. (Em silêncio.)" } }
+      }
+    },
+    "phrases.empty.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nichts zu tun.\nDas ist entweder Zen oder Prokrastination." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Nothing to do.\nThat's either Zen or procrastination." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Nada que hacer.\nEso es Zen o procrastinación." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Nada para fazer.\nIsso é Zen ou procrastinação." } }
+      }
+    },
+    "phrases.empty.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Keine Tasks.\nDein kosmischer Backlog ist leer.\nDas fühlt sich verdächtig an." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No tasks.\nYour cosmic backlog is empty.\nThat feels suspicious." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Sin tareas.\nTu backlog cósmico está vacío.\nEso parece sospechoso." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Sem tarefas.\nSeu backlog cósmico está vazio.\nIsso parece suspeito." } }
+      }
+    },
+    "phrases.empty.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Null Aufgaben.\nSOLARA hat nichts zu urteilen." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Zero tasks.\nSOLARA has nothing to judge." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Cero tareas.\nSOLARA no tiene nada que juzgar." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Zero tarefas.\nSOLARA não tem nada para julgar." } }
+      }
+    },
+    "phrases.empty.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Tabula rasa.\nDer Kosmos ist beeindruckt.\n(Der Kosmos hat keine Meinung.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tabula rasa.\nThe cosmos is impressed.\n(The cosmos has no opinion.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tabula rasa.\nEl cosmos está impresionado.\n(El cosmos no tiene opinión.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Tabula rasa.\nO cosmos está impressionado.\n(O cosmos não tem opinião.)" } }
+      }
+    },
+
+    "phrases.share.0" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum hat deinen\nTask gelesen. Es ist\nunbeeindruckt." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe read\nyour task. It is\nunimpressed." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo leyó\ntu tarea. No está\nimpresionado." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo leu\nsua tarefa. Não está\nimpressionado." } }
+      }
+    },
+    "phrases.share.1" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA weiß nichts.\nAber es sieht schön aus." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA knows nothing.\nBut it looks beautiful." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA no sabe nada.\nPero se ve bonito." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA não sabe nada.\nMas é bonito." } }
+      }
+    },
+    "phrases.share.2" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dein kosmisches Potenzial\nist unbegrenzt.\n(Quelle: Keine.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your cosmic potential\nis unlimited.\n(Source: none.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tu potencial cósmico\nes ilimitado.\n(Fuente: ninguna.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Seu potencial cósmico\né ilimitado.\n(Fonte: nenhuma.)" } }
+      }
+    },
+    "phrases.share.3" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du bist weiter als du denkst.\nNur leider nicht dort,\nwo du sein willst." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You're further along\nthan you think.\nJust not where you want to be." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Estás más avanzado\nde lo que crees.\nSolo que no donde quieres estar." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você está mais adiante\ndo que pensa.\nSó que não onde gostaria de estar." } }
+      }
+    },
+    "phrases.share.4" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Heute ist ein guter Tag\nfür nichts Bestimmtes." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today is a good day\nfor nothing in particular." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Hoy es un buen día\npara nada en particular." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Hoje é um bom dia\npara nada em particular." } }
+      }
+    },
+    "phrases.share.5" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erleuchtung ist nur\nein Tap entfernt.\n(Nicht wirklich.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enlightenment is just\none tap away.\n(Not really.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "La iluminación está\na un toque de distancia.\n(No realmente.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "A iluminação está\na um toque de distância.\n(Não de verdade.)" } }
+      }
+    },
+    "phrases.share.6" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA: Eine App,\ndie nichts weiß.\nUnd genau das ist der Punkt." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA: An app\nthat knows nothing.\nAnd that's exactly the point." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA: Una app\nque no sabe nada.\nY ese es exactamente el punto." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA: Um app\nque não sabe nada.\nE esse é exatamente o ponto." } }
+      }
+    },
+    "phrases.share.7" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dein Energiefeld wurde gelesen.\nErgebnis: Unbestimmt." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Your energy field was read.\nResult: undetermined." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tu campo energético fue leído.\nResultado: indeterminado." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Seu campo energético foi lido.\nResultado: indeterminado." } }
+      }
+    },
+
+    "easter.key.meditate" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "meditieren" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "meditate" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "meditar" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "meditar" } }
+      }
+    },
+    "easter.val.meditate" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast „Meditieren" geschrieben. SOLARA empfiehlt: Augen zu. App zu. Fertig." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You typed \"Meditate.\" SOLARA recommends: eyes closed. App closed. Done." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Escribiste \"Meditar.\" SOLARA recomienda: ojos cerrados. App cerrada. Listo." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você digitou \"Meditar.\" SOLARA recomenda: olhos fechados. App fechado. Pronto." } }
+      }
+    },
+    "easter.key.enlightenment" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "erleuchtung" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "enlightenment" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "iluminación" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "iluminação" } }
+      }
+    },
+    "easter.val.enlightenment" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erleuchtung ist kein Task. Aber netter Versuch." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Enlightenment is not a task. But nice try." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "La iluminación no es una tarea. Pero buen intento." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Iluminação não é uma tarefa. Mas boa tentativa." } }
+      }
+    },
+    "easter.key.yoga" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "yoga" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "yoga" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "yoga" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "yoga" } }
+      }
+    },
+    "easter.val.yoga" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Yoga als Task? Das Universum macht gerade den herabschauenden Hund." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Yoga as a task? The universe is doing downward dog right now." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "¿Yoga como tarea? El universo está haciendo el perro boca abajo." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Yoga como tarefa? O universo está fazendo o cachorro olhando para baixo." } }
+      }
+    },
+    "easter.key.todo" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "todo" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "todo" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "todo" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "todo" } }
+      }
+    },
+    "easter.val.todo" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ein To-Do in einer To-Do-App. Sehr meta." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "A to-do in a to-do app. Very meta." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Una tarea en una app de tareas. Muy meta." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Uma tarefa em um app de tarefas. Muito meta." } }
+      }
+    },
+    "easter.key.solara" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "solara" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "solara" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "solara" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "solara" } }
+      }
+    },
+    "easter.val.solara" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast den Namen der App als Task eingetragen. SOLARA fühlt sich… nichts. SOLARA fühlt nichts." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You entered the app's name as a task. SOLARA feels… nothing. SOLARA feels nothing." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ingresaste el nombre de la app como tarea. SOLARA siente… nada. SOLARA no siente nada." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você colocou o nome do app como tarefa. SOLARA sente… nada. SOLARA não sente nada." } }
+      }
+    },
+    "easter.key.nothing" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "nichts" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "nothing" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "nada" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "nada" } }
+      }
+    },
+    "easter.val.nothing" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast „Nichts" als Task erstellt. Technisch gesehen bist du jetzt fertig." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You created \"Nothing\" as a task. Technically, you're done now." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Creaste \"Nada\" como tarea. Técnicamente, ya terminaste." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você criou \"Nada\" como tarefa. Tecnicamente, você já terminou." } }
+      }
+    },
+    "easter.key.meaningoflife" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "sinn des lebens" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "meaning of life" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "sentido de la vida" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "sentido da vida" } }
+      }
+    },
+    "easter.val.meaningoflife" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "42. Nächster Task." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "42. Next task." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "42. Siguiente tarea." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "42. Próxima tarefa." } }
+      }
+    },
+    "easter.key.help" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "hilfe" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "help" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "ayuda" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "ajuda" } }
+      }
+    },
+    "easter.val.help" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA kann nicht helfen. SOLARA ist eine To-Do-App, die nichts weiß." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA cannot help. SOLARA is a to-do app that knows nothing." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA no puede ayudar. SOLARA es una app de tareas que no sabe nada." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA não pode ajudar. SOLARA é um app de tarefas que não sabe nada." } }
+      }
+    },
+    "easter.key.deletesystem32" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "delete system32" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "delete system32" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "delete system32" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "delete system32" } }
+      }
+    },
+    "easter.val.deletesystem32" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Netter Versuch. SOLARA läuft auf iOS." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Nice try. SOLARA runs on iOS." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Buen intento. SOLARA corre en iOS." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Boa tentativa. SOLARA roda no iOS." } }
+      }
+    },
+    "easter.key.coffee" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "kaffee" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "coffee" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "café" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "café" } }
+      }
+    },
+    "easter.val.coffee" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kaffee ist kein Task, Kaffee ist Grundrecht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Coffee is not a task, coffee is a fundamental right." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El café no es una tarea, el café es un derecho fundamental." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Café não é uma tarefa, café é um direito fundamental." } }
+      }
+    },
+    "easter.key.tea" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "tee" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "tea" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "té" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "chá" } }
+      }
+    },
+    "easter.val.tea" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Tee ist die Antwort. Die Frage ist egal." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tea is the answer. The question doesn't matter." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El té es la respuesta. La pregunta no importa." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Chá é a resposta. A pergunta não importa." } }
+      }
+    },
+    "easter.key.manifest" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "manifestieren" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "manifest" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "manifestar" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "manifestar" } }
+      }
+    },
+    "easter.val.manifest" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du kannst es nicht manifestieren, wenn du es in eine To-Do-App schreibst. Oder doch? (Nein.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You can't manifest it by writing it in a to-do app. Or can you? (No.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No puedes manifestarlo escribiéndolo en una app de tareas. ¿O sí? (No.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você não pode manifestar escrevendo em um app de tarefas. Ou pode? (Não.)" } }
+      }
+    },
+    "easter.key.cleanup" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "aufräumen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "clean up" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "ordenar" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "arrumar" } }
+      }
+    },
+    "easter.val.cleanup" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA räumt nicht auf. SOLARA fügt kosmisches Chaos hinzu." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA doesn't clean up. SOLARA adds cosmic chaos." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA no ordena. SOLARA añade caos cósmico." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA não arruma. SOLARA adiciona caos cósmico." } }
+      }
+    },
+    "easter.key.sleep" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "schlafen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "sleep" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "dormir" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "dormir" } }
+      }
+    },
+    "easter.val.sleep" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Schlafen ist kein Task. Schlafen ist Selbstverteidigung." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sleep is not a task. Sleep is self-defense." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Dormir no es una tarea. Dormir es defensa propia." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Dormir não é uma tarefa. Dormir é autodefesa." } }
+      }
+    },
+
+    "phrases.special.consecutiveno" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA gibt auf. Du gewinnst. (SOLARA hat nie gekämpft.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA gives up. You win. (SOLARA never fought.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA se rinde. Tú ganas. (SOLARA nunca luchó.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "SOLARA desiste. Você venceu. (SOLARA nunca lutou.)" } }
+      }
+    },
+    "phrases.special.toomanytasks" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das ist keine To-Do-Liste, das ist ein Hilferuf. (Scherz. Oder?)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This is not a to-do list, this is a cry for help. (Kidding. Or?)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Esto no es una lista de tareas, es un grito de auxilio. (Es broma. ¿O no?)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Isso não é uma lista de tarefas, é um pedido de socorro. (Brincadeira. Ou não?)" } }
+      }
+    },
+    "phrases.special.midnight" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du bist um Mitternacht hier. SOLARA urteilt nicht." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You're here at midnight. SOLARA does not judge." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Estás aquí a medianoche. SOLARA no juzga." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você está aqui à meia-noite. SOLARA não julga." } }
+      }
+    },
+    "phrases.special.shake" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast geschüttelt. SOLARA interpretiert das als kosmischen Reset. (Nichts passiert.)" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You shook the device. SOLARA interprets this as a cosmic reset. (Nothing happened.)" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Agitaste el dispositivo. SOLARA lo interpreta como un reinicio cósmico. (No pasó nada.)" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você chacoalhou o dispositivo. SOLARA interpreta isso como um reset cósmico. (Nada aconteceu.)" } }
+      }
+    },
+
     "shop.title" : {
       "localizations" : {
         "de" : { "stringUnit" : { "state" : "translated", "value" : "Kosmischer Geschenkeladen" } },

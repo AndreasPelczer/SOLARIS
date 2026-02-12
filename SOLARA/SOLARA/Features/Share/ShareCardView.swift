@@ -15,7 +15,7 @@ struct ShareCardView: View {
                 .ignoresSafeArea()
 
             VStack(spacing: 24) {
-                Text("Teile kosmische Weisheit")
+                Text(String(localized: "share.title"))
                     .font(.title3.bold())
                     .foregroundStyle(SolaraTheme.gold)
 
@@ -27,7 +27,7 @@ struct ShareCardView: View {
                         currentMessage = SolaraPhrases.shareCardMessages.randomElement() ?? currentMessage
                         renderImage()
                     } label: {
-                        Text("✦ Neuer Spruch")
+                        Text("✦ " + String(localized: "share.newquote"))
                             .font(.subheadline.bold())
                             .foregroundStyle(SolaraTheme.gold)
                             .padding(.horizontal, 20)
@@ -43,7 +43,7 @@ struct ShareCardView: View {
                             item: Image(uiImage: image),
                             preview: SharePreview("SOLARA", image: Image(uiImage: image))
                         ) {
-                            Text("Teilen")
+                            Text(String(localized: "share.button"))
                                 .font(.subheadline.bold())
                                 .foregroundStyle(SolaraTheme.backgroundPrimary)
                                 .padding(.horizontal, 20)
@@ -124,7 +124,7 @@ struct ShareCardContent: View {
                         .font(.caption.bold())
                         .tracking(4)
                         .foregroundStyle(SolaraTheme.gold)
-                    Text("Eine App, die nichts weiß.")
+                    Text(String(localized: "share.tagline"))
                         .font(.caption2)
                         .foregroundStyle(SolaraTheme.textSecondary)
                 }
