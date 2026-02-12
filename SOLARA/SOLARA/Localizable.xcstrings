@@ -91,7 +91,7 @@
     },
     "shop.item.patron.subtitle" : {
       "localizations" : {
-        "de" : { "stringUnit" : { "state" : "translated", "value" : "Für alle, die sagen möchten:\n„Ich unterstütze diese App. Obwohl sie nichts für mich tut.“\nDu erhältst nichts.\nAußer einem sehr würdevollen, digitalen Nicken." } },
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Für alle, die sagen möchten:\n\"Ich unterstütze diese App. Obwohl sie nichts für mich tut.\"\nDu erhältst nichts.\nAußer einem sehr würdevollen, digitalen Nicken." } },
         "en" : { "stringUnit" : { "state" : "translated", "value" : "For those who wish to say:\n\"I support this app. Despite its complete indifference.\"\nYou receive nothing.\nExcept a dignified digital nod." } },
         "es" : { "stringUnit" : { "state" : "translated", "value" : "Para quienes quieran decir:\n\"Apoyo esta app. Aunque sea completamente indiferente.\"\nNo recibes nada.\nExcepto un asentimiento digital muy digno." } },
         "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Para quem quer dizer:\n\"Eu apoio essa app. Mesmo ela sendo completamente indiferente.\"\nVocê não recebe nada.\nApenas um aceno digital respeitoso." } }
