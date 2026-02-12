@@ -74,7 +74,7 @@ struct HomeView: View {
                 .scaleEffect(viewModel.titleAppeared ? 1 : 1.05)
                 .opacity(viewModel.titleAppeared ? 1 : 0)
 
-            Text("„\(String(localized: "home.subtitle"))"")
+            Text("\u{201E}\(String(localized: "home.subtitle"))\u{201C}")
                 .font(.callout.italic())
                 .foregroundStyle(SolaraTheme.textSecondary)
 
