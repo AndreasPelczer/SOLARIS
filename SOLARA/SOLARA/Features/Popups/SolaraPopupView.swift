@@ -6,6 +6,7 @@
 import SwiftUI
 
 struct SolaraPopupView: View {
+    var title: String? = nil
     let message: String
     let onDismiss: () -> Void
 
@@ -21,6 +22,12 @@ struct SolaraPopupView: View {
                 Text("✦")
                     .font(.title2)
                     .foregroundStyle(SolaraTheme.gold)
+
+                if let title {
+                    Text(title)
+                        .font(.headline.bold())
+                        .foregroundStyle(SolaraTheme.gold)
+                }
 
                 Text("„\(message)"")
                     .font(.callout.italic())
