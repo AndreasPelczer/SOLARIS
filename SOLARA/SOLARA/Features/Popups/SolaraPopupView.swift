@@ -29,7 +29,7 @@ struct SolaraPopupView: View {
                         .foregroundStyle(SolaraTheme.gold)
                 }
 
-                Text("„\(message)"")
+                Text("„\(message)“")
                     .font(.callout.italic())
                     .foregroundStyle(SolaraTheme.goldLight)
                     .multilineTextAlignment(.center)

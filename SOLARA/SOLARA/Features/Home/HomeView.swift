@@ -74,7 +74,7 @@ struct HomeView: View {
                 .scaleEffect(viewModel.titleAppeared ? 1 : 1.05)
                 .opacity(viewModel.titleAppeared ? 1 : 0)
 
-            Text("„Deine kosmische Liste"")
+            Text("„Deine kosmische Liste“")
                 .font(.callout.italic())
                 .foregroundStyle(SolaraTheme.textSecondary)
 
