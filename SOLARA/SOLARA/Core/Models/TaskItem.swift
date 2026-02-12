@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct TaskItem: Identifiable, Equatable {
-    enum CosmicState: String, CaseIterable {
+struct TaskItem: Identifiable, Equatable, Codable {
+    enum CosmicState: String, CaseIterable, Codable {
         case imFluss            = "✨ Im kosmischen Fluss"
         case blockiert          = "🌫️ Energetisch blockiert"
         case nichtManifestiert  = "🔮 Noch nicht manifestiert"
