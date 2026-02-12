@@ -1,0 +1,110 @@
+{
+  "identifier" : "SOLARA Products",
+  "nonRenewableSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "solara.tea",
+      "localizations" : [
+        {
+          "description" : "Ein digitaler Tee für dein inneres Gleichgewicht.",
+          "displayName" : "Kosmischer Tee",
+          "locale" : "de"
+        },
+        {
+          "description" : "A digital tea for your inner balance.",
+          "displayName" : "Cosmic Tea",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "solara.tea",
+      "referenceName" : "Kosmischer Tee",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "solara.stone",
+      "localizations" : [
+        {
+          "description" : "Dieser Stein heilt nichts. Er harmonisiert nichts.",
+          "displayName" : "Virtueller Heilstein",
+          "locale" : "de"
+        },
+        {
+          "description" : "This stone heals nothing. It harmonizes nothing.",
+          "displayName" : "Virtual Healing Stone",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "solara.stone",
+      "referenceName" : "Virtueller Heilstein",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "solara.mercurykit",
+      "localizations" : [
+        {
+          "description" : "Enthält kosmischen Schutz, der nicht funktioniert.",
+          "displayName" : "Merkur-Rückläufig-Kit",
+          "locale" : "de"
+        },
+        {
+          "description" : "Contains cosmic protection that does not work.",
+          "displayName" : "Mercury Retrograde Kit",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "solara.mercurykit",
+      "referenceName" : "Merkur-Rückläufig-Kit",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "solara.patron",
+      "localizations" : [
+        {
+          "description" : "Du unterstützt eine App, die nichts kann.",
+          "displayName" : "Kosmisches Mäzenatentum",
+          "locale" : "de"
+        },
+        {
+          "description" : "You support an app that does nothing.",
+          "displayName" : "Cosmic Patronage",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "solara.patron",
+      "referenceName" : "Kosmisches Mäzenatentum",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "SOLARA",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "de",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      }
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

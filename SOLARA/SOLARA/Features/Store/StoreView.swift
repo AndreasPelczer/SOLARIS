@@ -9,38 +9,26 @@ import SwiftUI
 import StoreKit
 
 struct StoreView: View {
+    @State private var storeManager = StoreManager()
     @State private var showThankYou = false
-    @State private var purchasedItemName = ""
+    @State private var showPending = false
+    @State private var showCancelled = false
+    @State private var showFailed = false
 
-    private let products: [CosmicProduct] = [
-        CosmicProduct(
-            emoji: "🍵",
-            title: "Kosmischer Tee",
-            subtitle: "Kauf dem SOLARA-Team einen Tee. Er ist nicht kosmisch. Aber er ist warm.",
-            price: "0,99 €",
-            productID: "solara.tea"
-        ),
-        CosmicProduct(
-            emoji: "🪨",
-            title: "Virtueller Heilstein",
-            subtitle: "Existiert nicht. Funktioniert trotzdem (gefühlt). Schützt vor gar nichts.",
-            price: "2,99 €",
-            productID: "solara.stone"
-        ),
-        CosmicProduct(
-            emoji: "🌙",
-            title: "Merkur-Rückläufig-Survival-Kit",
-            subtitle: "Enthält: einen kosmischen Backup-Stein, einen digitalen Schutzkreis, eine Affirmation die nichts bedeutet.",
-            price: "4,99 €",
-            productID: "solara.mercurykit"
-        ),
-        CosmicProduct(
-            emoji: "✨",
-            title: "Kosmisches Mäzenatentum",
-            subtitle: "Du unterstützt eine App, die nichts kann. Das ist das Schönste, was je jemand getan hat.",
-            price: "9,99 €",
-            productID: "solara.patron"
-        )
+    /// Emoji mapping for known product IDs.
+    private let emojiMap: [String: String] = [
+        "solara.tea": "🍵",
+        "solara.stone": "🪨",
+        "solara.mercurykit": "🌙",
+        "solara.patron": "✨"
+    ]
+
+    /// Localized subtitle keys for known product IDs.
+    private let subtitleKeyMap: [String: LocalizedStringKey] = [
+        "solara.tea": "shop.item.tea.subtitle",
+        "solara.stone": "shop.item.stone.subtitle",
+        "solara.mercurykit": "shop.item.mercurykit.subtitle",
+        "solara.patron": "shop.item.patron.subtitle"
     ]
 
     var body: some View {
@@ -48,23 +36,30 @@ struct StoreView: View {
             SolaraTheme.backgroundPrimary
                 .ignoresSafeArea()
 
-            ScrollView {
-                VStack(spacing: 20) {
-                    storeHeader
-                    disclaimer
-
-                    ForEach(products) { product in
-                        productCard(product)
-                    }
-
-                    refundFooter
+            Group {
+                if storeManager.isLoading {
+                    loadingState
+                } else if storeManager.loadError != nil {
+                    errorState
+                } else if storeManager.products.isEmpty {
+                    errorState
+                } else {
+                    productList
                 }
-                .padding(.horizontal, 20)
-                .padding(.vertical, 16)
             }
 
+            // MARK: - Overlays
             if showThankYou {
                 thankYouOverlay
+            }
+            if showPending {
+                pendingOverlay
+            }
+            if showCancelled {
+                cancelledOverlay
+            }
+            if showFailed {
+                failedOverlay
             }
         }
         .navigationBarTitleDisplayMode(.inline)
@@ -77,16 +72,82 @@ struct StoreView: View {
         }
         .toolbarBackground(SolaraTheme.backgroundPrimary, for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
+        .task {
+            await storeManager.loadProducts()
+        }
+    }
+
+    // MARK: - Loading State
+
+    private var loadingState: some View {
+        VStack(spacing: 16) {
+            Spacer()
+            ProgressView()
+                .tint(SolaraTheme.gold)
+            Text("shop.state.loading")
+                .font(.callout.italic())
+                .foregroundStyle(SolaraTheme.textSecondary)
+            Spacer()
+        }
+    }
+
+    // MARK: - Error State
+
+    private var errorState: some View {
+        VStack(spacing: 16) {
+            Spacer()
+            Text("✦")
+                .font(.title)
+                .foregroundStyle(SolaraTheme.gold)
+            Text("shop.state.error")
+                .font(.callout.italic())
+                .foregroundStyle(SolaraTheme.textSecondary)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 32)
+
+            Button {
+                Task { await storeManager.loadProducts() }
+            } label: {
+                Text("↻")
+                    .font(.title2)
+                    .foregroundStyle(SolaraTheme.gold)
+                    .padding(12)
+                    .overlay(
+                        Circle()
+                            .stroke(SolaraTheme.gold.opacity(0.3), lineWidth: 1)
+                    )
+            }
+            Spacer()
+        }
+    }
+
+    // MARK: - Product List
+
+    private var productList: some View {
+        ScrollView {
+            VStack(spacing: 20) {
+                storeHeader
+                disclaimer
+
+                ForEach(storeManager.products, id: \.id) { product in
+                    productCard(product)
+                }
+
+                refundFooter
+            }
+            .padding(.horizontal, 20)
+            .padding(.vertical, 16)
+        }
     }
 
     // MARK: - Header
 
     private var storeHeader: some View {
         VStack(spacing: 8) {
-            Text("✦ Kosmischer Geschenkeladen ✦")
+            Text("shop.title")
                 .font(.title3.bold())
                 .foregroundStyle(SolaraTheme.gold)
-            Text("„Nichts hier tut etwas. Alles hier ist schön."")
+            Text("shop.intro")
                 .font(.callout.italic())
                 .foregroundStyle(SolaraTheme.textSecondary)
                 .multilineTextAlignment(.center)
@@ -97,7 +158,7 @@ struct StoreView: View {
     // MARK: - Disclaimer
 
     private var disclaimer: some View {
-        Text("Du brauchst hier nichts zu kaufen. Wirklich nicht. Wenn du trotzdem etwas kaufst, unterstützt du ein kleines Team, das eine sinnlose App baut. Das ist irgendwie schön.")
+        Text("shop.disclaimer")
             .font(.caption.italic())
             .foregroundStyle(SolaraTheme.textSecondary)
             .multilineTextAlignment(.center)
@@ -106,21 +167,23 @@ struct StoreView: View {
 
     // MARK: - Product Card
 
-    private func productCard(_ product: CosmicProduct) -> some View {
+    private func productCard(_ product: Product) -> some View {
         VStack(spacing: 12) {
-            Text(product.emoji)
+            Text(emojiMap[product.id] ?? "✦")
                 .font(.system(size: 48))
 
-            Text(product.title)
+            Text(product.displayName)
                 .font(.headline.bold())
                 .foregroundStyle(SolaraTheme.gold)
 
-            Text(product.subtitle)
-                .font(.subheadline)
-                .foregroundStyle(SolaraTheme.textPrimary)
-                .multilineTextAlignment(.center)
+            if let subtitleKey = subtitleKeyMap[product.id] {
+                Text(subtitleKey)
+                    .font(.subheadline)
+                    .foregroundStyle(SolaraTheme.textPrimary)
+                    .multilineTextAlignment(.center)
+            }
 
-            Text(product.price)
+            Text(product.displayPrice)
                 .font(.caption.bold())
                 .foregroundStyle(SolaraTheme.gold)
                 .padding(.horizontal, 12)
@@ -131,19 +194,26 @@ struct StoreView: View {
                 )
 
             Button {
-                purchasedItemName = product.title
-                showThankYou = true
+                Task { await handlePurchase(product) }
             } label: {
-                Text("Unterstützen")
-                    .font(.subheadline.bold())
-                    .foregroundStyle(SolaraTheme.gold)
-                    .padding(.horizontal, 28)
-                    .padding(.vertical, 10)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(SolaraTheme.gold, lineWidth: 1)
-                    )
+                Group {
+                    if storeManager.isPurchasing {
+                        ProgressView()
+                            .tint(SolaraTheme.gold)
+                    } else {
+                        Text("shop.cta.support")
+                            .font(.subheadline.bold())
+                    }
+                }
+                .foregroundStyle(SolaraTheme.gold)
+                .padding(.horizontal, 28)
+                .padding(.vertical, 10)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(SolaraTheme.gold, lineWidth: 1)
+                )
             }
+            .disabled(storeManager.isPurchasing)
         }
         .padding(20)
         .frame(maxWidth: .infinity)
@@ -160,7 +230,7 @@ struct StoreView: View {
     // MARK: - Refund Footer
 
     private var refundFooter: some View {
-        Text("Falls du knapp bei Kasse bist: Kauf bitte nichts. Wir meinen das ernst. SOLARA funktioniert komplett ohne Geld. Jeder Kauf kann jederzeit über Apple erstattet werden.")
+        Text("shop.refund.note")
             .font(.caption2.italic())
             .foregroundStyle(SolaraTheme.textSecondary)
             .multilineTextAlignment(.center)
@@ -168,23 +238,57 @@ struct StoreView: View {
             .padding(.bottom, 20)
     }
 
+    // MARK: - Purchase Handler
+
+    private func handlePurchase(_ product: Product) async {
+        let result = await storeManager.purchase(product)
+
+        switch result {
+        case .success:
+            showThankYou = true
+        case .cancelled:
+            showCancelled = true
+        case .pending:
+            showPending = true
+        case .failed:
+            showFailed = true
+        }
+    }
+
     // MARK: - Thank You Overlay
 
     private var thankYouOverlay: some View {
         SolaraPopupView(
-            message: "Danke. Wir wissen das zu schätzen.\nDein \(purchasedItemName) tut übrigens nichts.\nAber du hast etwas getan.",
+            title: String(localized: "shop.thankyou.title"),
+            message: String(localized: "shop.thankyou.body"),
             onDismiss: { showThankYou = false }
         )
     }
-}
 
-// MARK: - Cosmic Product Model
+    // MARK: - Pending Overlay
 
-struct CosmicProduct: Identifiable {
-    let id = UUID()
-    let emoji: String
-    let title: String
-    let subtitle: String
-    let price: String
-    let productID: String
+    private var pendingOverlay: some View {
+        SolaraPopupView(
+            message: String(localized: "shop.state.pending"),
+            onDismiss: { showPending = false }
+        )
+    }
+
+    // MARK: - Cancelled Overlay
+
+    private var cancelledOverlay: some View {
+        SolaraPopupView(
+            message: String(localized: "shop.purchase.cancelled"),
+            onDismiss: { showCancelled = false }
+        )
+    }
+
+    // MARK: - Failed Overlay
+
+    private var failedOverlay: some View {
+        SolaraPopupView(
+            message: String(localized: "shop.purchase.failed"),
+            onDismiss: { showFailed = false }
+        )
+    }
 }

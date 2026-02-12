@@ -1,0 +1,166 @@
+{
+  "sourceLanguage" : "de",
+  "strings" : {
+    "shop.title" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kosmischer Geschenkeladen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cosmic Gift Shop" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Tienda Cósmica" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Loja Cósmica" } }
+      }
+    },
+    "shop.intro" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Hier findest du Dinge, die nichts tun.\nWirklich. Gar nichts.\nSie erhöhen nicht deine Schwingung, sie reinigen keine Aura\nund sie beschleunigen definitiv keine Manifestation.\nWenn du SOLARA unterstützen möchtest, kannst du das hier tun.\nWenn nicht, funktioniert alles weiterhin exakt genauso." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Here you will find objects of profound uselessness.\nThey raise no vibration, cleanse no aura,\nand accelerate absolutely nothing.\nIf you wish to support SOLARA, you may do so here.\nIf not, everything continues exactly as before." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aquí encontrarás objetos de inutilidad sublime.\nNo elevan tu vibración, no limpian tu aura\ny no aceleran absolutamente nada.\nSi quieres apoyar SOLARA, puedes hacerlo aquí.\nSi no, todo seguirá exactamente igual." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Aqui você encontra objetos de inutilidade elevada.\nNão aumentam sua vibração, não limpam sua aura\ne definitivamente não aceleram nada.\nSe quiser apoiar o SOLARA, pode fazer isso aqui.\nSe não, tudo continua exatamente igual." } }
+      }
+    },
+    "shop.disclaimer" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Alle Artikel sind freiwillige In-App-Käufe ohne funktionalen Nutzen.\nSie verändern nichts – außer vielleicht dein Gewissen." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "All items are optional in-app purchases with no functional benefit.\nThey change nothing — except possibly your conscience." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Todos los artículos son compras opcionales sin ningún beneficio funcional.\nNo cambian nada… excepto quizás tu conciencia." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Todos os itens são compras opcionais sem benefício funcional.\nNão mudam nada — talvez só a sua consciência." } }
+      }
+    },
+    "shop.cta.support" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Unterstützen" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Support" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Apoyar" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Apoiar" } }
+      }
+    },
+    "shop.item.tea.title" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kosmischer Tee" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cosmic Tea" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Té Cósmico" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Chá Cósmico" } }
+      }
+    },
+    "shop.item.tea.subtitle" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Ein digitaler Tee für dein inneres Gleichgewicht.\nEr wärmt nicht. Er duftet nicht.\nEr existiert. Und das ist schon erstaunlich genug." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "A digital tea for your inner balance.\nIt does not warm you. It does not smell.\nIts existence is already impressive." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Un té digital para tu equilibrio interior.\nNo calienta. No huele.\nSu existencia ya es bastante impresionante." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Um chá digital para seu equilíbrio interior.\nNão esquenta. Não tem aroma.\nO simples fato de existir já é impressionante." } }
+      }
+    },
+    "shop.item.stone.title" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Virtueller Heilstein" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Virtual Healing Stone" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Piedra Sanadora Virtual" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Pedra Energética Virtual" } }
+      }
+    },
+    "shop.item.stone.subtitle" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Dieser Stein heilt nichts.\nEr harmonisiert nichts.\nEr ist nicht zertifiziert.\nEr ist rein dekorative Überzeugung." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This stone heals nothing.\nIt harmonizes nothing.\nIt is not certified by anyone.\nIt is decorative conviction." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Esta piedra no sana nada.\nNo armoniza nada.\nNo está certificada por nadie.\nEs pura convicción decorativa." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Essa pedra não cura nada.\nNão harmoniza nada.\nNão é certificada por ninguém.\nÉ pura convicção decorativa." } }
+      }
+    },
+    "shop.item.mercurykit.title" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Merkur-Rückläufig-Kit" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Mercury Retrograde Kit" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Kit de Mercurio Retrógrado" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Kit Mercúrio Retrógrado" } }
+      }
+    },
+    "shop.item.mercurykit.subtitle" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Falls heute alles schief läuft, liegt es vermutlich nicht an Merkur.\nDieses Kit hilft ebenfalls nicht.\nAber es gibt dir etwas, dem du die Schuld geben kannst." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "If everything goes wrong today, it is probably not Mercury's fault.\nThis kit will not help either.\nBut it gives you something to blame." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Si hoy todo sale mal, probablemente no sea culpa de Mercurio.\nEste kit tampoco ayuda.\nPero al menos tienes algo a quien culpar." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Se hoje tudo deu errado, provavelmente não é culpa de Mercúrio.\nEsse kit também não ajuda.\nMas pelo menos você tem algo para culpar." } }
+      }
+    },
+    "shop.item.patron.title" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Kosmisches Mäzenatentum" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cosmic Patronage" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Mecenazgo Cósmico" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Mecenato Cósmico" } }
+      }
+    },
+    "shop.item.patron.subtitle" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Für alle, die sagen möchten:\n„Ich unterstütze diese App. Obwohl sie nichts für mich tut."\nDu erhältst nichts.\nAußer einem sehr würdevollen, digitalen Nicken." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "For those who wish to say:\n\"I support this app. Despite its complete indifference.\"\nYou receive nothing.\nExcept a dignified digital nod." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Para quienes quieran decir:\n\"Apoyo esta app. Aunque sea completamente indiferente.\"\nNo recibes nada.\nExcepto un asentimiento digital muy digno." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Para quem quer dizer:\n\"Eu apoio essa app. Mesmo ela sendo completamente indiferente.\"\nVocê não recebe nada.\nApenas um aceno digital respeitoso." } }
+      }
+    },
+    "shop.state.loading" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum lädt Produkte …" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe is loading products…" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo está cargando productos…" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo está carregando produtos…" } }
+      }
+    },
+    "shop.state.error" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum ist gerade nicht erreichbar. Bitte später erneut versuchen." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe is currently unavailable. Please try again later." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo no está disponible en este momento. Inténtalo más tarde." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo não está disponível no momento. Tente novamente mais tarde." } }
+      }
+    },
+    "shop.state.pending" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum prüft deine Transaktion …" } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe is reviewing your transaction…" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo está revisando tu transacción…" } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo está analisando sua transação…" } }
+      }
+    },
+    "shop.thankyou.title" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Danke." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Thank you." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Gracias." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Obrigado." } }
+      }
+    },
+    "shop.thankyou.body" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Das Universum nimmt deine Geste zur Kenntnis.\nOhne Bewertung. Aber mit Stil." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The universe acknowledges your gesture.\nWithout judgement. But with style." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "El universo toma nota de tu gesto.\nSin juzgar. Pero con estilo." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "O universo registra seu gesto.\nSem julgamento. Mas com estilo." } }
+      }
+    },
+    "shop.refund.note" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Käufe werden über Apple abgewickelt. Erstattungen erfolgen gemäß Apples Richtlinien." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Purchases are processed by Apple. Refunds follow Apple's policies." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Las compras son gestionadas por Apple. Los reembolsos siguen las políticas de Apple." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "As compras são processadas pela Apple. Reembolsos seguem as políticas da Apple." } }
+      }
+    },
+    "shop.purchase.failed" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Die Transaktion konnte nicht abgeschlossen werden.\nDas Universum schweigt.\nBitte versuche es später erneut." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "The transaction could not be completed.\nThe universe remains silent.\nPlease try again later." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "La transacción no pudo completarse.\nEl universo guarda silencio.\nInténtalo de nuevo más tarde." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "A transação não pôde ser concluída.\nO universo permaneceu em silêncio.\nTente novamente mais tarde." } }
+      }
+    },
+    "shop.purchase.cancelled" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Du hast den Vorgang abgebrochen.\nDas Universum respektiert deine Entscheidung." } },
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "You cancelled the transaction.\nThe universe respects your decision." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Has cancelado la transacción.\nEl universo respeta tu decisión." } },
+        "pt-BR" : { "stringUnit" : { "state" : "translated", "value" : "Você cancelou a transação.\nO universo respeita sua decisão." } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
